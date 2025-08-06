@@ -1,0 +1,64 @@
+.AdminBod{
+    display:  block ;
+    background: whitesmoke ;
+    width: 80vw;
+    height: auto ;
+}
+
+.CRUDbox{
+    display:  block ;
+    padding : 10px ;
+}
+
+.infoBox label{
+    font-size: large;
+}
+
+.CRUDbox input{
+    padding : 14px ;
+    border-radius: 5px ;
+    width: 100% ;
+    border : none ;
+    border-bottom: 0.5px #7a777a;
+}
+.infoImg{
+    color : red ;
+    font-size : smaller ;
+    font-weight: lighter;
+}
+.EditProd{
+    color : white ;
+    background: black ;
+    border-radius: 10px ;
+    border : none ;
+}
+.tableCon{
+    width : 100% ;
+}
+
+.TabBox{
+    padding : 0;
+}
+.TabBox ul{
+    display : flex ;
+}
+.TabBox ul li{
+    padding-right : 5px ;
+}
+.TabBox ul li button{
+    background : black ;
+    color : #fff ;
+    border-radius : 10px ;
+    cursor : pointer ;
+    padding : 5px 14px ;
+}
+td{
+    background : white ;
+    padding : 10px ;
+    margin : 15px ;
+}
+@media screen and (max-width : 700px) {
+    .tableCon{
+        font-size:  smaller ;
+    }
+}

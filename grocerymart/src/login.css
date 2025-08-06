@@ -1,0 +1,48 @@
+.LoginBod{
+    width: 30vw !important;
+    text-align: center ;
+    padding : 5px ;
+}
+.LoginForm{
+    width: 100% !important ;
+    height: auto ;
+    padding : 10px ;
+    display:  block ;
+    border-radius:  10px ;
+}
+
+.Headtext{
+    text-align: center ;
+}
+
+.loginBox{
+    display: block ;
+    padding : 10px ;
+    }
+.label{
+    font-size: small ;
+    padding : 2px ;
+}
+.LoginForm input{
+    padding : 8px ;
+    border-radius: 5px ;
+    width: 100% ;
+    border : none ;
+    border-bottom: 0.5px #7a777a;
+}
+.logininfo{
+    font-size: small;
+}
+.btnLogin{
+    background: black ;
+    color: white ;
+    padding : 5px ;
+    border-radius: 5px ; 
+}
+
+@media screen and (max-width : 500px) {
+    .LoginBod{width : 90vw !important;}
+} 
+@media screen and (max-width : 800px) {
+    .LoginBod{width : 70vw !important;}
+} 
